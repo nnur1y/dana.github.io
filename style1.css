@@ -1,0 +1,21 @@
+body{
+    background-image:url(https://cdn2.vectorstock.com/i/1000x1000/16/21/cloud-seamless-background-endless-cartoon-vector-17321621.jpg);
+    background-size:cover;
+    height: 100%;
+}
+.page{
+    background-color: white;
+    overflow: hidden;
+    min-width: 320px;
+    max-width: 1200px;
+    width: 100%;
+    position:;
+    margin: 100px 100px;
+
+}
+
+@media (max-width: 1199px){
+body{
+    background: none;
+}
+}

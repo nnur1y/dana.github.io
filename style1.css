@@ -9,8 +9,9 @@ body{
     font-family: "Open Sans",sans-serif;
     color: #404E65;
     font-size: 15px;
-    line-height: 24px;
+    line-height: 18px;
     word-wrap: break-word;
+
     
 
 }
@@ -27,31 +28,47 @@ div {
 }
 .header{
     position: relative;
+
     
 }
 .container{
     display: flex;
+    justify-content: space-between;
     
 }
 span{
-font-size: 13.5px;
-letter-spacing: 1px;
+font-size: 7.5px;
+letter-spacing: 2px;
 display: block;
-line-height: 1.3;
 text-transform: uppercase;
-padding-bottom: 15px;
+padding-bottom: 16px;
 cursor: pointer;
 text-align: center;
 }
 
-.icon{
-width: 130px;
-  height: 130px;
+.icon1{
+width: 120px;
+  height: 120px;
   overflow: hidden;
-  margin: 20px;
-  padding: 60px;
+  padding-right: 30px;
   cursor: pointer;
+  text-align: center;
 }
+.icon1 img{
+    width: initial;
+    height: 100%;
+}
+
+
+.icon{
+    text-align: center;
+    width: 90px;
+      height: 60px;
+      overflow: hidden;
+      margin: 10px;
+      padding: 20px;
+      cursor: pointer;
+    }
 .icon img{
     width: initial;
     height: 100%;

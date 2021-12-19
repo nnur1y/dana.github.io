@@ -1,20 +1,32 @@
 body{
     margin: 0;
-    background-image:url("https://cdn2.vectorstock.com/i/1000x1000/16/21/cloud-seamless-background-endless-cartoon-vector-17321621.jpg");
+    background-image:url("images/cloud-seamless-background-endless-cartoon-vector-17321621.jpg");
     background-color: #6ecded;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: scroll;
-
-    font-family: "Open Sans",sans-serif;
-    color: #404E65;
+ /*   font-family: "Open Sans",sans-serif;*/
     font-size: 15px;
     line-height: 18px;
     word-wrap: break-word;
     
 
 }
+.nav_link{
+    align-items: center;
+    font-weight: bold;
+    text-decoration: none;
+    background:transform 0.2s ;
+}
 
+.nav_link:hover{
+    text-decoration: none;
+    
+}
+
+.nav_link .ic:hover{
+   color:#31acd8;
+}
 
 
 
@@ -48,6 +60,8 @@ div {
     padding-top: 8px;
     cursor: pointer;
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #404E65;
 }
 
 .icon1{
@@ -146,7 +160,7 @@ main *{
 }
 
 .nav__links{
-    position: fixed;
+    position:fixed;
     top: 0;
     left: 0;
     z-index: 2;
@@ -172,6 +186,7 @@ main *{
     padding:5px 15px;
     background:transform 0.2s ;
 }
+
 .nav__link >i{
     margin-right: 15px;
 }
@@ -188,7 +203,8 @@ main *{
 .nav__link--active,
 .nav__link:hover{
     background: #eeeeee;
-    color: #009578;
+    color: #31acd8;
+    text-decoration: none;
 }
 
 .nav__overlay{
@@ -230,7 +246,26 @@ a{
     letter-spacing: 1px;
     
 }
+}
+  /* Carousel note*/
+  .carousel1{
+    width: 100%;
+    height: 100%;
+  }
 
+  .carousel2{
+      display: none;
+  }
+@media (max-width: 994px) {
+    .carousel1{
+        display: none;
+    }
 
-
+    .carousel2{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    
+    }
 }

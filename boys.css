@@ -1,0 +1,100 @@
+.clothes .title{
+    margin: 9rem  0 0 0;
+    text-align: center;
+}
+.title h1{
+    font-size: 3rem;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    color: rgb(60, 143, 143);
+    font-family: 'Alfa Slab One', cursive;
+
+}
+.back{
+    background-image: url(https://i.pinimg.com/originals/cb/c2/2c/cbc22ca5a3d7568a742262639a9f6b3f.jpg);
+    position: relative;
+    background-repeat: no-repeat;
+    width: 1000px;
+}
+.boys .pajamas a{
+    margin: 0rem 2rem 0rem 1rem;
+    
+}
+.boys .activewear a{
+    margin: 0 3rem 0 0;
+}
+.boys .tops a{
+    margin: 0 0 0 2rem;
+}
+.boys  a{
+    font-size: 2rem;
+    margin: 1rem;
+    color: rgb(60, 143, 143);
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    
+}
+.boys{
+    display: flex;
+    justify-content: center ;
+    
+}
+.for{
+    color: rgb(60, 143, 143);
+    font-size: 25px;
+    padding-right: 3rem;
+}
+.sum{
+    display: flex;
+    padding-inline-start: 25%;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 5rem 3rem;
+}
+
+.p-header img{
+    width: 250px;
+    height: 250px;
+}
+
+.section{
+    display: flex;
+    margin: 0 3rem 0 3rem;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --box-shadow: var(--box-shadow);
+}
+
+.boys {
+    margin: 0 3rem 0 2rem;
+}
+.section1{
+    display: flex;
+    margin: 0 3rem 0 3rem;
+    --border:.1rem solid rgba(0,0,0,.1);
+    --border-hover:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+    --box-shadow: var(--box-shadow);
+}
+.section1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    gap: 5rem 3rem;
+}
+.p-footer{
+    padding-inline-end: 25%;
+}
+
+.p-footer h3{
+    color: rgb(60, 143, 143);
+}
+.product a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(60, 143, 143);
+}

@@ -7,11 +7,85 @@
     <title>Activewear</title>
     <link rel="stylesheet" href="style1.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="shortcut icon" href="/assets/favicon.ico">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans+Condensed:wght@300&family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="mobil">
+        <header class="header">
+                <button class="header__button" id="btnNav" type="button">
+                    <i class="material-icons">menu</i>
+                </button>
+        </header>
+        <div class="logo">
+            <a href="http://127.0.0.1:5500/index.html">
+                <div class="icon1"><img width="100px" height="100px" src="https://sun9-87.userapi.com/impg/c-m5pPXGUdPlJ7XKnPPWzg0JiMdTt2L2aY4wzA/U7lTifFDQKU.jpg?size=362x270&quality=96&sign=c402fb77a95bb83a22440e4327fc7d96&type=album" alt="" ></div>
+            </a>
+        </div>
+        <nav class="nav">
+             <div class="nav__links">
+                    <a href="#" class="nav__link--active">
+                        <i class="material-icons">close</i>
+                    </a>
+                 <a href="boys.html" class="nav__link">
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/481/481689.png" alt=""></div>
+                    для мальчиков
+                 </a>
+                 <a href="girl.html" class="nav__link">
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/481/481690.png" alt=""></div>
+                    для девочек
+                </a>
+                <a href="#" class="nav__link">
+                    <div class="icon"><img src="images\healthy-food.png" alt=""></div>
+                    питание
+                </a>
+                <a href="#" class="nav__link">
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3731/3731082.png" alt=""></div>
+                    продукты
+                </a>
+                <a href="#" class="nav__link">
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/482/482187.png" alt=""></div>
+                    Доставка
+                </a>
+             </div>
+             <div class="nav__overlay"></div>
+        </nav>
+    </div>
+    <main>   
+        <div class="page">
+            <div class="head">
+              <div class="logo">
+                  <a href="http://127.0.0.1:5500/index.html">
+                    <div class="icon1"><img src="https://sun9-87.userapi.com/impg/c-m5pPXGUdPlJ7XKnPPWzg0JiMdTt2L2aY4wzA/U7lTifFDQKU.jpg?size=362x270&quality=96&sign=c402fb77a95bb83a22440e4327fc7d96&type=album" alt=""></div>
+                  </a>
+              </div>
+              <div class="container">
+                  <a href="boys.html" class="nav_link">
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/481/481689.png" alt=""><span class="ic">для мальчиков</span></div>
+                  </a>
+                  <a href="girl.html" class="nav_link">
+                    <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/481/481690.png" alt=""><span class="ic">для девочек</span></div>
+                  </a>
+                  <div class="icon"><img src="images\healthy-food.png" alt=""><span class="ic">питание</span></div>
+                  <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/3731/3731082.png" alt=""><span class="ic">продукты</span></div>
+                  <div class="icon"><img src="https://cdn-icons-png.flaticon.com/512/482/482187.png" alt=""><span class="ic">Доставка</span></div>
+              </div>
+           </div>
+        </div>
+        </main>
+        
+        
+    <script type="text/javascript" src="main.js"></script>
+    <div class="page"> 
     <section class="clothes">
         <div class="title">
-            <h1>Activewear</h1>
+            <h1>Спортивные костюмы</h1>
         </div>
         <br>
         <br>
@@ -19,37 +93,37 @@
         <div class="general1">
             <div class="one1">
                 <img src="https://i5.walmartimages.com/asr/c74d87da-1c56-4579-ba45-4dd768a8e18c.1cebcd04844c77b013d8348082be2783.jpeg" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$15</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
 
             <div class="one2">
                 <img src="https://i.ebayimg.com/images/g/DQQAAOSwB75guEAW/s-l400.jpg" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$12</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
 
             <div class="one3">
                 <img src="https://i.pinimg.com/474x/10/e1/93/10e19374ca6013d94a745cb28e8022cf.jpg" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$12</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
 
             <div class="one4">
                 <img src="https://litb-cgis.rightinthebox.com/images/640x640/202103/bps/product/inc/xjxmsy1617158500689.jpg" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$12</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
         </div>
@@ -60,41 +134,105 @@
         <div class="general">
             <div class="one1">
                 <img src="https://m.media-amazon.com/images/I/61uQJosOhbL._AC_UL1500_.jpg" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$15</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
 
             <div class="one2">
                 <img src="https://belk.scene7.com/is/image/Belk?layer=0&src=4100490_71C678F_A_434&$DWP_PRODUCT_PDP_LARGE$" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$12</h3>
+                    <h3>7200тг</h3>
                 <button type="button" class="btn btn-outline-info" id="button">Buy</button>
                 </div>
             </div>
 
             <div class="one3">
                 <img src="https://i5.walmartimages.com/asr/b203ddaa-5005-4e96-a535-51783c14654a_1.e784642e10eb1e35fd86033eb05afb6d.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$12</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
 
             <div class="one4">
                 <img src="https://m.media-amazon.com/images/I/61aGpC0dPUL._AC_UY445_.jpg" alt="">
-                <h3>Boy's activewear</h3>
+                <h3>Спортивный костюм для мальчиков</h3>
                 <div class="center">
-                    <h3>$12</h3>
-                <button type="button" class="btn btn-outline-info" id="button">Buy</button>
+                    <h3>7200тг</h3>
+                    <button type="button" class="btn btn-outline-info" onclick="window.location.href = '//instagram.com/family.ridder?utm_medium=copy_link'">Купить</button>
                 </div>
             </div>
         </div>
     </section>
+</div>
+
+<br>
+
+
+<footer>
+    <div class="footer-content">
+        <img src="pictures/logoo.png" class="logo">
+        
+        <div class="footer-ul">
+            <ul class="category">
+                    <li class="category-title">В ПРОДАЖЕ</li>
+                    <li> <a href="#" class="footer-link">Вельветовый комбинезон</a></li>
+                    <li> <a href="#" class="footer-link">Oshkosh стеганый пуховый жилет</a></li>
+                    <li> <a href="#" class="footer-link">Комбинезоны с капюшоном </a></li>
+                    <li> <a href="#" class="footer-link">Детская толстовка из флиса 
+                    </a></li>
+                    
+
+
+                </ul>
+                <ul class="category">
+                    <li class="category-title">НОВЫЙ</li>
+                    <li> <a href="#" class="footer-link">Ветровка Oshkosh с трикотажной подкладкой</a></li>
+                    <li> <a href="#" class="footer-link">СВЕРКАЮЩИЙ ТЮЛЕВЫЙ ДЖЕМПЕР</a></li>
+                    <li> <a href="#" class="footer-link">Многоярусная неоновая макси-юбка</a></li>
+                    
+
+
+                </ul>
+                <ul class="category">
+                    <li class="category-title">ОБРАБОТАННЫЙ</li>
+                    <!-- <li> <a href="#" class="footer-link">Боди поло Pique</a></li> -->
+                    <li> <a href="#" class="footer-link">Детская толстовка из флиса <br></a></li>
+                    <li> <a href="#" class="footer-link">Французская махровая шаль воротник кардиган <br></a></li>
+                    <li> <a href="#" class="footer-link">Многоярусная неоновая макси-юбка <br></a></li>
+
+
+
+                </ul>
+        </div>
+    </div>
+    
+    <p class="info">Гоголя 35-2, Магазин Чистый дом,<br>
+             Риддер, Казахстан, 071300 <br>
+             +7 776 495 7474 <br>
+             <br>
+             family.kz@domain.net <br>
+             support email - help@clothing.com</p>
+   <hr class="line">
+   <div class="footer-social">
+       <div>
+           <a href="#" class="social-link">terms & services</a>
+           <a href="#" class="social-link">privacy page</a>
+       </div>
+            <div>
+                  
+                <a class="social-link" href="https://api.whatsapp.com/send/?phone=77764957474&text&app_absent=0">whatsapp</a>
+                <a class="social-link" href="https://instagram.com/family.ridder?utm_medium=copy_link">instagram</a>
+                <a href="#" class="social-link">twitter</a>
+            </div>
+    </div>
+    <p class="footer-cr">Clothing, Best apparels online store</p>
+</footer>
     <script type="text/javascript" src="script1.js"></script>
 </body>
 </html>

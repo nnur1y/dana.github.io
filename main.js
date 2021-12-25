@@ -17,4 +17,19 @@
         });
     });
 
-  
+
+
+    $(function(){ 
+     /*   $("#header").load("header.html");  */
+        $("#footer").load("footer11.html"); 
+        $("#banner").load("banner.html"); 
+      }); 
+
+
+      /*preload*/
+	window.onload = function() {
+		setTimeout(function() {
+			document.getElementById("preloader_malc").style.display = "none";
+		}, 400);
+
+	};

@@ -9,9 +9,44 @@ body{
     font-size: 15px;
     line-height: 18px;
     word-wrap: break-word;
-    
 
+}  
+#preloader_malc {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(250, 172, 172, 0.6);
+    z-index: 9999;
 }
+
+#preloader_malc div {
+    background: #fff;
+    width: 260px;
+    height: 80px;
+    line-height: 40px;
+    border-radius: 8px;
+    font-family: arial;
+    font-size: 15px;
+    color: #111;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto
+}
+.hheeaadd{
+position: sticky;
+top: 0;
+z-index: 1100;
+}
+
+
 .nav_link{
     align-items: center;
     font-weight: bold;
@@ -29,7 +64,6 @@ body{
 }
 
 
-
 .page{
     background-color: white;
     min-width: 320px;
@@ -37,7 +71,9 @@ body{
     position:relative;
     max-width: 1200px;
     margin: 0 auto;
+    text-align: center;
 }
+
 div {
     display: block;
 }
@@ -46,6 +82,7 @@ div {
     display: flex;
     
 }
+
 .container{
     display: flex;
     justify-content: space-between;
@@ -66,10 +103,9 @@ div {
 
 .icon1{
     width: 210px;
-    height: 145px;
+    height: 125px;
     overflow: hidden; 
-    margin-top: 0;
-    padding-top: 0;
+    margin-top: -10px;
     padding-left: 8px;
     padding-right: 30px;
     cursor: pointer;
@@ -78,6 +114,7 @@ div {
 .icon1 img{
     width: initial;
     height: 100%;
+    max-width:100%;
 }
 
 
@@ -85,8 +122,7 @@ div {
     text-align: center;
     width: 150px;
     height: 85px;
-    margin: 5px;
-    margin-top: 25px ;
+    margin-top: 5px;
     padding: 15px;
     cursor: pointer;
     }
@@ -114,11 +150,11 @@ body{
 
 
 @media (max-width: 994px) {
-    .preload *{
+.preload *{
         transition : none !important;
-        }
+}
         
-    .mobil *{
+.mobil *{
         display:unset;
     }
 main *{
@@ -250,23 +286,30 @@ a{
 }
   /* Carousel note*/
   .carousel1{
-    width: 100%;
+   width: 100%;
     height: 100%;
+  }
+  .carousel1 img{
+      max-width: 100%;
   }
 
   .carousel2{
       display: none;
   }
-@media (max-width: 994px) {
+@media (max-width: 600px) {
     .carousel1{
         display: none;
     }
 
     .carousel2{
-    display:flex;
+        display: contents;
     width: 100%;
     height: 100%;
-    justify-content: center;
 
+
+
+    }
+    .carousel2 img{
+        max-width: 100%;
     }
 }
